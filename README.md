@@ -146,7 +146,7 @@ I would like to thank microverse for the oportunity to learn how to set up this 
 
 - **how will i setup this project in local machine**
 
-  - run the following command in the terminal: git clone https://github.com/AmineDerbal/Math-Magicians-React.git
+  - run the following command in the terminal: git clone https://github.com/danutibe07/math-magicians.git
 
 - **which code editor should i use**
 
