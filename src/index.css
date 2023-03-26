@@ -1,32 +1,36 @@
-body{
+body {
   display: flex;
-justify-content: center;
-margin: 0;
-color: #fff;
+  justify-content: center;
+  margin: 0;
+  color: #fff;
 }
-.calculator{
+
+.calculator {
   width: 20rem;
   display: flex;
   margin-top: 6rem;
   flex-direction: column;
 }
-.screen{
+
+.screen {
   background-color: #858694;
   padding: 2.4rem;
   text-align: right;
   font-size: 20px;
 }
-button{
+
+button {
   background-color: #e0e0e0;
-  border: none;
   width: 5rem;
   padding: 2rem;
   border: 1px solid #d1d1d1;
+  outline: none;
 }
-.orange-btn{
+
+.orange-btn {
   background-color: #f5913e;
 }
 
-.span2{
+.span2 {
   width: 10rem;
 }
