@@ -2,13 +2,13 @@ body {
   display: flex;
   justify-content: center;
   margin: 0;
-  color: black;
+  color: #fff;
 }
 
 .calculator {
   width: 20rem;
   display: flex;
-  margin-top: 6rem;
+  margin-top: 3rem;
   flex-direction: column;
 }
 
