@@ -1,3 +1,4 @@
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
 body {
   display: flex;
   justify-content: center;
@@ -33,4 +34,20 @@ button {
 
 .span2 {
   width: 10rem;
+}
+
+main{
+  color: black;
+  font-family: 'Alkatra', cursive;
+  width: 15rem;
+  padding: 8rem;
+}
+
+main p{
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+.math-magician{
+  display: flex;
 }
