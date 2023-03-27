@@ -1,7 +1,7 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import propTypes from 'prop-types';
 
 const Screen = ({ result }) => <p id="bottom-value">{result}</p>;
-Screen.propTypes = { result: PropTypes.string.isRequired };
+Screen.propTypes = { result: propTypes.string.isRequired };
 
 export default Screen;

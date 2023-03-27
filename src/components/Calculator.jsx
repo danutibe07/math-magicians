@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Screen from './Screen';
+import calculate from '../logic/calculate';
 
 const Calculator = () => {
   const [result, setResult] = useState('');
