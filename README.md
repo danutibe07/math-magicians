@@ -30,7 +30,8 @@
 
 # Math Magicians Project📖 <a name="about-project"></a>
 
-**Math Magicians** 
+**Math Magicians**
+
 ## 🛠 Built With <a name="built-with"></a>
 
 - HTML.
@@ -44,7 +45,7 @@
 
 - **React front end framwork**
 - **Git-flow**
-
+- **Es6 module**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
@@ -117,8 +118,9 @@ You can deploy this project using: github pages or any host of your choice
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **will be added soon...**
-
+- [ ] **responsive for all devices**
+- [ ] **Create Components**
+- [ ] **create Calculator page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
