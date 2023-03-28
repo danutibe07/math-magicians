@@ -3,20 +3,25 @@ import axios from 'axios';
 
 function QuotesApi() {
   const [quotes, setQuotes] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(false);
   const ApiKey = 'xyYovpvJWuK/3VYUQggBFQ==Ep1VlB5MOqrnejpl';
   const category = 'happiness';
   const fetchData = async () => {
-    await axios.get(`https://api.api-ninjas.com/v1/quotes?category=${category}`, {
-      headers: {
-        'x-api-key': ApiKey,
-      },
-    })
+    setLoading(true);
+    await axios
+      .get(`https://api.api-ninjas.com/v1/quotes?category=${category}`, {
+        headers: {
+          'x-api-key': ApiKey,
+        },
+      })
       .then((response) => {
-        console.log(response);
         setQuotes(response.data);
+        setLoading(false);
       })
       .catch((err) => {
-        console.log(err);
+        setError(err);
+        setLoading(false);
       });
   };
 
@@ -25,13 +30,16 @@ function QuotesApi() {
   }, []);
   return (
     <main>
-      {quotes.map((text) => (
-        <p key={text.quote}>
-          &quot;
-          {text.quote}
-          &quot;
-        </p>
-      ))}
+      {loading && <div> Loading, please wait... </div>
+        ? !!quotes
+          && quotes.map((text) => (
+            <p key={text.quote}>
+              &quot;
+              {text.quote}
+              &quot;
+            </p>
+          ))
+        : error && <div> Something went wrong </div>}
     </main>
   );
 }
