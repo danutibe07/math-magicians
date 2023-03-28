@@ -40,13 +40,20 @@ button {
 main {
   color: black;
   font-family: 'Alkatra', cursive;
-  width: 15rem;
+  width: 25rem;
   padding: 8rem;
 }
 
 main p {
   font-size: 22px;
-  letter-spacing: 2px;
+  letter-spacing: 2.5px;
+}
+
+main ul li{
+  text-decoration: none;
+  list-style: none;
+  font-size: 22px;
+  letter-spacing: 1.7px;
 }
 
 .math-magician {

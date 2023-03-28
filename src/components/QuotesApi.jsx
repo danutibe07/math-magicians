@@ -32,18 +32,24 @@ function QuotesApi() {
 
   return (
     <main>
-      <>{error && <p>{error}</p>}</>
-      {isLoading ? (
-        <p>Loading...</p>
-      ) : (
-        <ul>
-          {data.map((item) => (
-            <li key={item.quote}>{item.quote}</li>
-          ))}
-        </ul>
-      )}
+      <div>{error && <ErrorMessage /> }</div>
+      <div>
+        {isLoading ? (
+          <p>Loading...</p>
+        ) : (
+          <ul>
+            {data.map((item) => (
+              <li key={item.quote}>{item.quote}</li>
+            ))}
+          </ul>
+        )}
+      </div>
     </main>
   );
+
+  function ErrorMessage() {
+    return <p>{error}</p>;
+  }
 }
 
 export default QuotesApi;
