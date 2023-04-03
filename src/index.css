@@ -6,7 +6,7 @@ body {
   justify-content: center;
   margin: 0;
   color: rgba(255, 255, 255, 0.8);
-  background-color: #14173E;
+  background-color: #14173e;
   font-family: 'Rubik', sans-serif;
 }
 
@@ -66,24 +66,24 @@ main ul li {
   justify-content: center;
 }
 
-.maths-header{
+.maths-header {
   display: flex;
   justify-content: space-between;
   padding: 25px 100px;
   width: 80vw;
 }
 
-.maths-navbar{
+.maths-navbar {
   display: flex;
 }
 
-a{
+a {
   text-decoration: none;
   margin: 20px;
   color: #57d3f5;
 }
 
-.home{
+.home {
   padding: 5px 110px;
   font-size: 22px;
 }
