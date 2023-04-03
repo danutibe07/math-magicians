@@ -8,10 +8,10 @@ import Error from './components/Error';
 function App() {
   return (
     <div className="math-magician">
-      <Router>
+      <Router basename="math-magicians">
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home/" element={<Home />} />
           <Route path="/calculator" element={<Calculator />} />
           <Route path="/quotes" element={<Quotes />} />
           <Route path="*" element={<Error />} />
