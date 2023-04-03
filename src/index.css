@@ -10,12 +10,20 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 
+.calculator-page{
+  display: flex;
+}
+
+.calculator-page h1{
+  margin: auto;
+  margin-top: -40px;
+}
 .calculator {
   width: 20rem;
   display: flex;
   flex-direction: column;
   margin: auto;
-  margin-top: -50px;
+  margin-top: -40px;
 }
 
 .screen {

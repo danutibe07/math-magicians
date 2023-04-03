@@ -8,13 +8,13 @@ import Error from './components/Error';
 function App() {
   return (
     <div className="math-magician">
-      <Router basename="math-magicians">
+      <Router >
         <Header />
         <Routes>
-          <Route path="/home/" element={<Home />} />
-          <Route path="/calculator" element={<Calculator />} />
-          <Route path="/quotes" element={<Quotes />} />
-          <Route path="*" element={<Error />} />
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/calculator" element={<Calculator />} />
+          <Route exact path="/quotes" element={<Quotes />} />
+          <Route path="/quotes" element={<Error />} />
         </Routes>
       </Router>
 
