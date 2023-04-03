@@ -14,6 +14,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -44,9 +45,13 @@
 
 - **React front end framwork**
 - **Git-flow**
-- **Es6 module**
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://math-magicians-pued.onrender.com/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 💻 Getting Started <a name="getting-started"></a>
 
 1.install git, if you already have git installed skip this step.
@@ -111,9 +116,7 @@ You can deploy this project using: github pages or any host of your choice
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **responsive for all devices**
-- [ ] **Create Components**
-- [ ] **create Calculator page**
+- [ ] **will be added soon...**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

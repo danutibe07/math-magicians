@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 
-function QuotesApi() {
+function Quotes() {
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-  const [error, setError] = useState(null);
+  // const [error, setError] = useState(null);
+  const setError = null;
   const ApiKey = 'xyYovpvJWuK/3VYUQggBFQ==Ep1VlB5MOqrnejpl';
   const category = 'happiness';
 
@@ -32,7 +33,7 @@ function QuotesApi() {
 
   return (
     <main>
-      <div>{error && <ErrorMessage /> }</div>
+      {/* <div>{error && <ErrorMessage /> }</div> */}
       <div>
         {isLoading ? (
           <p>Loading...</p>
@@ -47,9 +48,9 @@ function QuotesApi() {
     </main>
   );
 
-  function ErrorMessage() {
-    return <p>{error}</p>;
-  }
+  // function ErrorMessage() {
+  //   return <p>{error}</p>;
+  // }
 }
 
-export default QuotesApi;
+export default Quotes;
