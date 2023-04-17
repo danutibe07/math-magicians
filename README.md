@@ -52,6 +52,7 @@
 - [Live Demo Link](https://math-magicians-pued.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 1.install git, if you already have git installed skip this step.
