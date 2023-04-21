@@ -14,6 +14,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -29,7 +30,8 @@
 
 # Math Magicians Project📖 <a name="about-project"></a>
 
-**Math Magicians** 
+**Math Magicians**
+
 ## 🛠 Built With <a name="built-with"></a>
 
 - HTML.
@@ -43,6 +45,11 @@
 
 - **React front end framwork**
 - **Git-flow**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://math-magicians-pued.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,7 +118,6 @@ You can deploy this project using: github pages or any host of your choice
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **will be added soon...**
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
